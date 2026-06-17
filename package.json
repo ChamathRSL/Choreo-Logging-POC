@@ -1,0 +1,10 @@
+{
+  "name": "logging-poc",
+  "version": "1.0.0",
+  "description": "Benign logging bypass PoC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
