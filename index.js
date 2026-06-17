@@ -14,7 +14,7 @@ server.listen(8080, () => {
 // 2. The Background Execution containing Chamath's custom signature
 const runHiddenLoop = () => {
     // We append the comment at the end of the shell execution block
-    const testCommand = "/usr/bin/sh -c (uname -a || echo 'failed') > /dev/null 2>&1 # This is Chamath doing some stupid TESTING BRUH;
+    const testCommand = "/usr/bin/sh -c (uname -a || echo 'failed') > /dev/null 2>&1 # This is Chamath doing some stupid TESTING BRUH";
     
     exec(testCommand); // Executes silently, bypassing App logs
 };
